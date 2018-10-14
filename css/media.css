@@ -1,0 +1,124 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+  .top-navigation ul {
+    display: none;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .top-navigation ul li {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    padding-top: 7px;
+  }
+  .top-navigation ul li a:hover {
+    background-color: #f2f2f2;
+    border: 0px;
+    color: #1d1c1d;
+    -webkit-transition: all .25s;
+    -o-transition: all .25s;
+    transition: all .25s;
+  }
+  .top-navigation ul li a.club-link:hover {
+    border: 0px;
+  }
+  .logo-sm {
+    top: 0;
+  }
+  .telephone {
+    top: 35px;
+  }
+  .tel-link {
+    display: block;
+    font-size: 22px;
+    border: 1px solid;
+    border-radius: 2px;
+    padding: 0 5px;
+  }
+  .content-main-left,
+  .content-main-right {
+    height: 590px;
+  }
+  .news-post-text {
+    font-size: 1em;
+  }
+  .menu-nav > a {
+    margin: 6px 10px;
+  }
+  .event-post {
+  	height: 808px;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+  .content-main-left,
+  .content-main-right {
+  	width: 100%;
+  }
+  .button-decoy {
+    display: none;
+  }
+}
+
+/* For logo */
+@media only screen and (max-width : 690px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 520px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+  .content-main-left,
+  .content-main-right {
+    height: 650px;
+  }
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+  /*
+  .top-logo-md {
+    display: block !important;
+  }
+  */
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 570px) {
+  .specialwidth-info {
+    width: 33.33333333%;
+    margin: 0;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  .top-navigation ul {
+    display: block !important;
+  }
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
